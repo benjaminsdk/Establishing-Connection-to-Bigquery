@@ -3,7 +3,7 @@ from google.oauth2 import service_account
 
 # Change the path to the location of the service account key .json file
 credentials = service_account.Credentials.from_service_account_file(
-    'path_of_service_account_key.json')
+    'config.service_account_example.json')
 
 client = bigquery.Client(credentials=credentials)
 
