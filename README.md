@@ -4,8 +4,6 @@
 
 Install Python: 3.7
 
-Google Service Account: foodpanda@foodpanda-342717.iam.gserviceaccount.com.
-
 ### Installation Process
 
 Run "pip install --upgrade google-cloud-bigquery" in cmd.
@@ -14,4 +12,6 @@ Run "pip install --upgrade google-cloud-bigquery" in cmd.
 
 Create Google Cloud account.
 
-Create project.
+Create Project ID.
+
+Under IAM create Principles with the respective IAM roles.
